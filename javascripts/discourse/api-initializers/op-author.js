@@ -5,7 +5,7 @@ export default apiInitializer((api) => {
   // Desktop topic list: "posters" column
   api.registerValueTransformer("topic-list-columns", ({ value: columns }) => {
     if (columns.has("posters")) {
-      columns.add("posters", { item: OpPostersCell });
+      columns.replace("posters", { item: OpPostersCell });
     }
     return columns;
   });
