@@ -1,0 +1,5 @@
+op_author_categories:
+  type: list
+  list_type: simple
+  default: "community/racconti"
+  description: "Category paths (parent/child slugs) for which topic lists show the original poster instead of the last poster. Subcategories are included."
