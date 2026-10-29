@@ -19,7 +19,7 @@ export default class OpPostersCell extends Component {
         <DUserLink
           @username={{this.poster.user.username}}
           @href={{this.poster.user.path}}
-          class={{this.poster.extraClasses}}
+          class="latest op-author"
         >
           {{dAvatar
             this.poster
